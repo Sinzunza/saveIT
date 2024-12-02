@@ -1,0 +1,123 @@
+/* General Reset */
+body, h2, p, input, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Auth Section */
+#auth-container {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+span {
+  color: blue;
+  cursor: pointer;
+}
+
+/* Home/Spending Section */
+#home-container {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4caf50;
+  padding: 10px;
+}
+
+header button {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+header .active-tab {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+}
+
+footer button {
+  width: auto;
+  padding: 5px 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  input, button {
+    width: 100%;
+  }
+}
