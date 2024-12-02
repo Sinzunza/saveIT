@@ -34,10 +34,10 @@ a {
     font-size: .8rem;
 }
 
-#divBody {
+body {
     height: 100%;
     width: 100%;
-    background-image: url(../photos/money_bg.jpg);
+	background: #D3D3D3;
     background-position: center;
     background-size: cover;
     position: absolute;
